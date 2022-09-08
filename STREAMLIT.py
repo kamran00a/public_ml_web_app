@@ -5,7 +5,7 @@ from flaml import AutoML
 import numpy as np
 pipe=pickle.load(open('automl.pkl','rb'))
 df=pickle.load(open('df.pkl','rb'))
-load=pickle.load(open(r"D:\DOC\New folder\automl.sav",'rb'))
+load=pickle.load(open('automl.pkl','rb'))
 
 
 
